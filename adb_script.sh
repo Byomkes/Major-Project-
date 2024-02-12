@@ -15,8 +15,3 @@ else
     
     # Example: Print the device serial number
     echo "Connected to device: $device"
-
-    # Example: Execute an ADB command (e.g., list installed packages)
-    result=$(adb -H $adb_host -P $adb_port -s $device shell "pm list packages")
-    echo "Installed packages: $result"
-fi
