@@ -4,7 +4,7 @@
 backup_path=/sdcard/app_backup
 
 # API key for VirusTotal 
-api_key=<your_virustotal_api_key>
+api_key=d02c7a20c0113d82851c54530acf35c6a09144edded8d0b0a65b655bf5412473
 
 # Clear old backup
 adb shell "rm -rf $backup_path" 
